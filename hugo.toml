@@ -1,53 +1,30 @@
 baseURL = 'https://kelvinQC.github.io/'
-locale = 'zh-cn'
-title = 'Qichao.Sun Blog'
-theme = 'github-style'
-pygmentsCodeFences = true
-pygmentsUseClasses = true
+locale = 'en'
+title = 'Qichao Blog'
+theme = 'hugo-theme-monochrome'
 
 [params]
-  author = "Qichao"
-  description = "In solitude, where we are least alone."
-  github = "kelvinqc"
-  facebook = "kelvinqc"
-  twitter = "kelvinqc"
-  linkedin = "kelvinqc"
-  instagram = "kelvinqc"
-  tumblr = "kelvinqc"
-  email = "xiubuzhe@gmail.com"
-  url = "https://www.sunhpc.com"
-  keywords = "blog, google analytics"
-  rss = true
-  lastmod = true
-  userStatusEmoji = "😀"
-  favicon = "/images/github.png"
-  avatar = "/images/avatar.png"
-  headerIcon = "/images/GitHub-Mark-Light-32px.png"
-  location = "China"
-  enableGitalk = true
-  custom_css = ["css/custom.css"]
-  custom_js = ["js/custom.js"]
+footer = "Copyright © 2026 by Qichao" # default: None
+toc_position = "right"
+enable_collapsible_toc = false # default: false
+enable_collapsible_changelogs = false # default: false
 
-  [params.gitalk]
-    clientID = "xiubuzhe"
-    clientSecret = "xiubuzhe"
-    repo = "repo"
-    owner = "Qichao"
-    admin = "Qichao"
-    id = "location.pathname"
-    labels = "gitalk"
-    perPage = 15
-    pagerDirection = "last"
-    createIssueManually = true
-    distractionFreeMode = false
+[[menu.navbar]]
+identifier = "about"
+name = "about"
+title = "about"
+url = "/about/"
+weight = 100
 
-  [[params.links]]
-    title = "Link"
-    href = "https://github.com/xiubuzhe"
+[[menu.navbar]]
+identifier = "series"
+name = "series"
+url = "/series/"
+weight = -100
 
-[frontmatter]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
+[[menu.navbar]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 80
 
-[services]
-  [services.googleAnalytics]
-    ID = "UA-123456-789"
