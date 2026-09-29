@@ -1,5 +1,5 @@
 baseURL = 'https://kelvinQC.github.io/'
-locale = 'en-us'
+locale = 'zh-cn'
 title = 'Qichao.Sun Blog'
 
-theme = 'ananke'
+theme = 'hugo-theme-monochrome'
