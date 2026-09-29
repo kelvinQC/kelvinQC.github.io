@@ -1,24 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>My New Hugo Project</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content on My New Hugo Project</description>
-		<generator>Hugo</generator>
-		<language>en-us</language>
-		
-		
-		
-		
-			<lastBuildDate>Tue, 29 Sep 2026 17:12:11 +0800</lastBuildDate>
-		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>My First Post</title>
-				<link>http://localhost:1313/posts/my-first-post/</link>
-				<pubDate>Tue, 29 Sep 2026 17:12:11 +0800</pubDate>
-				<guid>http://localhost:1313/posts/my-first-post/</guid>
-				<description>&lt;h1 id=&#34;my-sunhpc&#34;&gt;My Sunhpc&lt;/h1&gt;&#xA;&lt;h3 id=&#34;这是一个测试文章如何安装配置hugo-blog&#34;&gt;这是一个测试文章，如何安装配置Hugo Blog&lt;/h3&gt;</description>
-			</item>
-	</channel>
+  <channel>
+    <title>Qichao.Sun Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Qichao.Sun Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    
+    
+    
+    <lastBuildDate>Tue, 29 Sep 2026 17:12:11 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 29 Sep 2026 17:12:11 +0800</pubDate>
+      
+      
+      
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>
+
+
+&lt;h1 class=&#34;header-anchor-wrapper&#34;&gt;My Sunhpc
+  &lt;a href=&#34;#my-sunhpc&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h1&gt;
+
+
+
+
+&lt;h3 class=&#34;header-anchor-wrapper&#34;&gt;这是一个测试文章，如何安装配置Hugo Blog
+  &lt;a href=&#34;#%e8%bf%99%e6%98%af%e4%b8%80%e4%b8%aa%e6%b5%8b%e8%af%95%e6%96%87%e7%ab%a0%e5%a6%82%e4%bd%95%e5%ae%89%e8%a3%85%e9%85%8d%e7%bd%aehugo-blog&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h3&gt;</description>
+    </item>
+    
+  </channel>
 </rss>

@@ -1,5 +1,53 @@
 baseURL = 'https://kelvinQC.github.io/'
 locale = 'zh-cn'
 title = 'Qichao.Sun Blog'
+theme = 'github-style'
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
-theme = 'hugo-theme-monochrome'
+[params]
+  author = "Qichao"
+  description = "In solitude, where we are least alone."
+  github = "kelvinqc"
+  facebook = "kelvinqc"
+  twitter = "kelvinqc"
+  linkedin = "kelvinqc"
+  instagram = "kelvinqc"
+  tumblr = "kelvinqc"
+  email = "xiubuzhe@gmail.com"
+  url = "https://www.sunhpc.com"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😀"
+  favicon = "/images/github.png"
+  avatar = "/images/avatar.png"
+  headerIcon = "/images/GitHub-Mark-Light-32px.png"
+  location = "China"
+  enableGitalk = true
+  custom_css = ["css/custom.css"]
+  custom_js = ["js/custom.js"]
+
+  [params.gitalk]
+    clientID = "xiubuzhe"
+    clientSecret = "xiubuzhe"
+    repo = "repo"
+    owner = "Qichao"
+    admin = "Qichao"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/xiubuzhe"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-123456-789"
